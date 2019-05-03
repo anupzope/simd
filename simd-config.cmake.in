@@ -1,0 +1,9 @@
+@PACKAGE_INIT@
+
+set(simd_VERSION_MAJOR "@simd_VERSION_MAJOR@")
+set(simd_VERSION_MAJOR "@simd_VERSION_MINOR@")
+set(simd_VERSION_MAJOR "@simd_VERSION_PATCH@")
+set(simd_VERSION_MAJOR "@simd_VERSION@")
+
+include("${CMAKE_CURRENT_LIST_DIR}/simd-targets.cmake")
+

@@ -1,0 +1,13 @@
+family("simd")
+
+help([[
+sets environment for simd/@PROJECT_VERSION@
+]])
+
+whatis("sets environment for simd/@PROJECT_VERSION@")
+
+local version = "@PROJECT_VERSION@"
+local prefix = "@CMAKE_INSTALL_PREFIX@/simd/@PROJECT_VERSION@"
+
+prepend_path("simd_DIR", prefix)
+
